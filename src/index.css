@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+.main {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+}
+.main input {
+  flex: 1;
+  margin-right: 15px;
+  border-radius: 10px 10px;
+  font-size: 1.25rem;
+}
+.messageStatus {
+  font-family: "Gilroy";
+  font-weight: 500;
+  color: rgb(6, 212, 85);
+  text-align: center;
+}
+.err {
+  font-family: "Gilroy";
+  font-weight: 500;
+  color: red;
+  text-align: center;
+}
+.is-error {
+  outline: none;
+  box-shadow: 0 2px 4px red;
+  border-color: red;
+}
+.borderInput {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(22, 130, 192);
+  border: solid rgb(22, 130, 192);
+}
+input:hover {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(22, 130, 192);
+  border: solid rgb(22, 130, 192);
+}
+input {
+  border: 0.5px solid rgb(135, 184, 185);
+}
+.tag-block {
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+input {
+  padding-left: 15px;
+}
+.tag {
+  border-radius: 20px;
+  display: flex;
+  background-color: #b6d7fb;
+  padding: 0px 5px 0px 15px;
+  margin: 15px 15px 0px 15px;
+}
+
+.textag {
+  padding-right: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(71, 130, 240);
+}
+.btntag {
+  background: none;
+  border: none;
+  color: crimson;
+}
+.err-block{
+  height: 30px;
+}
